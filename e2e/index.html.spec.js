@@ -63,7 +63,7 @@ test.describe("index.html", () => {
     await expect(script).toHaveAttribute('type', 'module');
   });
 
-  test("deve ter um parágrafo sem uma seção com id entrada e conteúdo editável", async ({ page }) => {
+  test("deve ter um parágrafo em uma seção com id entrada e conteúdo editável", async ({ page }) => {
     await page.goto(`http://localhost:5500`);
     const p = await page.locator("main > section> p");
 
