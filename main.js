@@ -11,8 +11,8 @@ atualizarListaOrdenada();
 function atualizarListaOrdenada(){
     const lista = getLista();
     for (let i = 0; i < lista.length; i++){
-    adicionaElementoNalistaOrdenada(lista[i]);
-}
+        adicionaElementoNalistaOrdenada(lista[i]);
+    }
 }
 
 
